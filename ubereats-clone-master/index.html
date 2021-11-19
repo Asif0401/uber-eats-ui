@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UBER EATS</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <!-- Header-->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Uber<span>Eats</span></h1>
+        </div>
+        <div class="currentDetails">
+          <div class="header-option">
+            <i data-feather="map-pin"></i>
+            <span>India</span>
+          </div>
+          <div class="header-option">
+            <i data-feather="clock"></i>
+            <span>Deliver now</span>
+          </div>
+        </div>
+        <div class="searchBar">
+          <div class="header-option">
+            <i data-feather="search"></i>
+            <span>Search</span>
+          </div>
+          <div class="header-option">
+            <span><button class="sign">Sign In</button></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- for login form -->
+    <div class="modal">
+      <div class="modal-box">
+        <div class="modal-body">
+          <h3>Log In</h3>
+          <form>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="form-control">
+              <label for="password">Password</label>
+              <input type="password" id="password" />
+            </div>
+            <p><a href="#">Forgot your email or password</a></p>
+            <button class="btn btn-dark">Log In</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <p>Don't have an account? <a href="#">Start your free trial</a></p>
+        </div>
+        <img class="close" src="img/close.svg" alt="close" />
+      </div>
+    </div>
+
+    
+    <!-- Options -->
+    <div class="options">
+      <div class="container">
+        <button class="options-btn selected">
+          <i data-feather="shopping-bag"></i>
+          <span>Delivery</span>
+        </button>
+        <button class="options-btn">
+          <i data-feather="watch"></i>
+          <span>Pick-up</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Listing -->
+    <div class="listings">
+      <div class="container">
+        <div class="header">
+          <div class="header-title">
+            <h2>When you're hungry now 😋 </h2>
+           
+            <span>The fastest food to your door</span>
+          </div>
+          <div class="header-viewOptions">
+            <div class="viewAll">
+              <span>View all</span>
+            </div>
+            <div class="viewMore">
+              <span class="arrow circle left"
+                ><i data-feather="arrow-left"></i>
+              </span>
+              <span class="arrow circle right darker">
+                <i data-feather="arrow-right"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="listings-grid">
+          <div class="listings-col">
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/chicken-biryani-directly-above-photo-picture-id1169141170?b=1&k=20&m=1169141170&s=170667a&w=0&h=C2_3alFwewOa5QuJoEUfFPvll2AUzEig2zeUDUvdfD8="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Hyd Chicken Biryani</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.250</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.2</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Indian | South Indian | Halal | Biryani| Meal</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Korean Crispy Burger</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.150</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">5.0</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Korean | Middle Eastern | Halal | Burger| Fast Food</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1532636875304-0c89119d9b4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>German Doner Kebab</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.100</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.9</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >German | Middle Eastern | Halal | Kebab| Fast Food</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="listings-col">
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/lanzhou-stretched-noodles-picture-id1293674026?b=1&k=20&m=1293674026&s=170667a&w=0&h=SCRwBJLQjDj3qwq25Bk0pb2COJSoZmctjAyhkKp9SJk="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3> Noodles</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.60</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.8</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Chinese | Northern | Halal | Noodles| Fast Food</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Cheesy Pepperoni Pizza</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.180</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.6</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Indain | Middle Eastern | Cheese | Pizza| Fast Food</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Vegetable Mix Salad</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.50</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.2</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >French | Middle Eastern | Veg | Salad | Healthy Food</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Listing -->
+    <div class="listings">
+      <div class="container">
+        <div class="header">
+          <div class="header-title">
+            <h2>Popular near you </h2>
+            <span>Craving Indian? Discover restaurants near you and get delivered to your door</span>
+          </div>
+          <div class="header-viewOptions">
+            <div class="viewAll">
+              <span>View all</span>
+            </div>
+            <div class="viewMore">
+              <span class="arrow circle left"
+                ><i data-feather="arrow-left"></i>
+              </span>
+              <span class="arrow circle right darker">
+                <i data-feather="arrow-right"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="listings-grid">
+          <div class="listings-col">
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1599937577325-e38f27f010db?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1pbGslMjBzaGFrZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Oreo Shake</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.100</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">5.0</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Shake| Cold</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGF2JTIwYmhhaml8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Indian Pav Bhaji</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.60</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.9</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Indian | Street Food</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/boiled-eggs-cooked-in-spicy-curry-sauce-closeup-in-a-plate-horizontal-picture-id1185235352?b=1&k=20&m=1185235352&s=170667a&w=0&h=NWXGIK399HlWu9uaOQFe4RQLbrYheNjidhMPfUQ2pBk="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Egg Curry</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.100</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.0</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Non-Veg | Egg| Spicy Food</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="listings-col">
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/indian-popular-food-dal-fry-or-traditional-dal-tadka-curry-picture-id1326660354?b=1&k=20&m=1326660354&s=170667a&w=0&h=lONu22a-cGspl13GhYs2wR_OX6hTGeZ-hsDzIRihe1g="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Dal Roti</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.80</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.2</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Indian | Meal</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/vegetarian-samosas-with-chutney-picture-id181073533?b=1&k=20&m=181073533&s=170667a&w=0&h=c0_b_crGDe3QcGcSVKHcEe8R0cp5eqfYTC8Y_ZuP9jQ="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Samosa</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.50</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.8</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Indian | Street Food</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FrZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Chocolate Cake</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.500</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.4</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Cake| Bakery Food</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Listing -->
+    <div class="listings">
+      <div class="container">
+        <div class="header">
+          <div class="header-title">
+            <h2>Special offers offer exclaim</h2>
+            <span>The fastest food to your door</span>
+          </div>
+          <div class="header-viewOptions">
+            <div class="viewAll">
+              <span>View all</span>
+            </div>
+            <div class="viewMore">
+              <span class="arrow circle left"
+                ><i data-feather="arrow-left"></i>
+              </span>
+              <span class="arrow circle right darker">
+                <i data-feather="arrow-right"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="listings-grid">
+          <div class="listings-col">
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/assorted-south-indian-breakfast-foods-on-wooden-background-ghee-dosa-picture-id1292563627?b=1&k=20&m=1292563627&s=170667a&w=0&h=4DxcYQ2CACloQiFhgWW620pAvY859OhzyOEdAT8PbCY="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Masala Dosa</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.50</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.0</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >South Indian | Breakfast</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c291dGglMjBpbmRpYW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Spl. Idly</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.50</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.2</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                >South Indian | Breakfast</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/indian-thali-picture-id478728799?b=1&k=20&m=478728799&s=170667a&w=0&h=0Wk7xgvFNeA7GsLI0PhfNTxqfpz-3iSG_o_7KPIny-g="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Thali</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.100</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.5</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Meal |  Food</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="listings-col">
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Spinach Salad</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.50</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.0</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >German |  Salad</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/shahi-paneer-or-paneer-kadai-picture-id1305516603?b=1&k=20&m=1305516603&s=170667a&w=0&h=UZpMX_VBtX7x_hdVDToLSYWdtaPk7Re5cH5Zr9BOPCE="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Paneer Butter Masala</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.150</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">5.0</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >Indian | Paneer</span
+                >
+              </div>
+            </div>
+            <div class="listings-grid-element">
+              <div class="image">
+                <img
+                  src="https://media.istockphoto.com/photos/poha-popular-indian-breakfast-picture-id501425188?b=1&k=20&m=501425188&s=170667a&w=0&h=-rg3jmy7-cSQnOKAdJPHFl-fhg6d6oYYkjbejC8gusc="
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text-title">
+                  <h3>Poha(masala)</h3>
+                  <div class="info">
+                    <span>Rs.20 delivery fee | 20-30 MINS | Rs.40</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.4</span>
+                </div>
+              </div>
+              <div class="text-lower">
+                <span class="smallText"
+                  >North Indian | Snack</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+    <script src="/scripts/main.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
