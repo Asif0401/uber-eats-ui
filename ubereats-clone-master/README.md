@@ -3,6 +3,4 @@ My own take on Ubereats
 
 
 # to run
-`npm install` 
-
-`parcel serve index.html`
+open html file in live server
